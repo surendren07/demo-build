@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update
-COPY testscript.sh /
+COPY testscirpt.sh /
 WORKDIR /
-RUN chmod a+x testscript.sh
-ENTRYPOINT ["/testscript.sh"]
+RUN chmod a+x testscirpt.sh
+ENTRYPOINT ["/testscirpt.sh"]
